@@ -3,7 +3,9 @@ Website showing different resources and lands
 https://www.markdownguide.org/cheat-sheet/
 
 **bold text**
-	> blockquote
+
+*italicized text*
+> blockquote
 
 1. First item
 2. Second item
