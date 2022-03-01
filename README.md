@@ -24,13 +24,13 @@ Inline `code` example...
 
 ![alt text](image.jpg)
 
-##Tema i motivació
+## Tema i motivació
 
-##Dades
+## Dades
 
-##Estructura de la web
+## Estructura de la web
 
-##Cartografia amn qgis2web
+## Cartografia amn qgis2web
 
-##Dificultats i millores
+## Dificultats i millores
 Limitacions
