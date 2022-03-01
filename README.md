@@ -18,6 +18,7 @@ https://www.markdownguide.org/cheat-sheet/
 `code`
 
 Inline `code` example...
+<br>
 ---
 [title](https://www.example.com)
 
