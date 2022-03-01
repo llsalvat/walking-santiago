@@ -20,7 +20,7 @@ https://www.markdownguide.org/cheat-sheet/
 Inline `code` example...
 <br>
 ---
-[title](https://www.example.com)
+Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
 ![alt text](image.jpg)
 
