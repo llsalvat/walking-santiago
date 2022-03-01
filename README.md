@@ -22,7 +22,7 @@ Inline `code` example...
 ---
 Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
-![alt text](image.jpg)
+![alt text](Imagen1.jpg)
 
 ## Tema i motivació
 
