@@ -17,6 +17,10 @@ https://www.markdownguide.org/cheat-sheet/
 
 `code`
 
+Inline `code` example...
+[title](https://www.example.com)
+![alt text](image.jpg)
+
 ##Tema i motivació
 
 ##Dades
