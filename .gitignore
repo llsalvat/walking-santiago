@@ -24,8 +24,8 @@ bin-release/
 *.shp 
 *.dbf
 *.shx
-*.wal
-*.h...
+*.gpkg-wal
+*.gpkg-shm
 
 # Office related 
 *.temp
