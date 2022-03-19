@@ -20,7 +20,8 @@ bin-release/
 # GIS related temp files
 
 #si el fitxer esta dins de la carpeta data ho fiquem aixi
-data/*.shp 
+*.data
+*.shp 
 *.dbf
 *.shx
 *.wal
