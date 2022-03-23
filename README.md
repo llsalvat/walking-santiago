@@ -1,4 +1,4 @@
-# walking-santiago
+# Walking Santiago
 Website showing different resources and lands
 https://www.markdownguide.org/cheat-sheet/
 https://stackedit.io/
