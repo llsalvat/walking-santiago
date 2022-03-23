@@ -4,9 +4,9 @@ https://www.markdownguide.org/cheat-sheet/
 https://stackedit.io/
 https://www.w3schools.com/html/default.asp
 
-## Tema i motivació
+## Tema y motivación
 
-## Dades
+## Datos
 
 **bold text**
 
@@ -62,7 +62,8 @@ Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
 ![alt text](images/Ways_ofSt._James_in_Europe.png)
 
-## Cartografia amn qgis2web
+## Cartografía con qgis2web
+Click al [enlace](./maps/mapa1/qgis2web_2022_03_23-14_00_53_864876/index.html) para navegar en el mapa.
 
-## Dificultats i millores
+## Dificultades y mejoras
 Limitacions
