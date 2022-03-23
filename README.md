@@ -5,6 +5,7 @@ https://stackedit.io/
 https://www.w3schools.com/html/default.asp
 
 Esquema: [link](images/esquema/mermaid_diagram.png)
+
 **bold text**
 
 *italicized text*
