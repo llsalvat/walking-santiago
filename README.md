@@ -64,6 +64,7 @@ Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
 ## Cartografía con qgis2web
 Click al [enlace](./maps/mapa1/qgis2web_2022_03_23-14_00_53_864876/index.html) para navegar en el mapa.
-
+<iframe src="./maps/mapa1/qgis2web_2022_03_23-14_00_53_864876/index.html" title="Mapa 1" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:none;">
+ </iframe>
 ## Dificultades y mejoras
 Limitacions
