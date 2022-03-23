@@ -1,10 +1,12 @@
-# walking-santiago
+# Walking Santiago
 Website showing different resources and lands
 https://www.markdownguide.org/cheat-sheet/
 https://stackedit.io/
 https://www.w3schools.com/html/default.asp
 
-En el siguiente enlace se dispone un esquema de la página web: [Enlace](images/esquema/mermaid_diagram.png)
+## Tema y motivación
+
+## Datos
 
 **bold text**
 
@@ -24,46 +26,45 @@ En el siguiente enlace se dispone un esquema de la página web: [Enlace](images/
 Inline `code` example...
 <br>
 ---
-graph TD
-%% contenidors
-A[fa:fa-child Walking Santiago] 
+
+## Estructura de la web
+```mermaid
+
+    graph TD;
+    A[fa:fa-child Walking Santiago]; 
     
-A-->B[fa:fa-home Introducción]
+    A-->B[fa:fa-home Introducción];
 
-B-->C[fa:fa-map Mapa de etapas]
-B-->D[fa:fa-walking Etapas al detalle]
-B-->E[fa:fa-university fa:fa-bed Lugares de visita y descanso]
-B-->F[fa:fa-suitcase Equipaje]
-B-->G[fa:fa-envelope fa:fa-phone Contacto]
+    B-->C[fa:fa-map Mapa de etapas];
+    B-->D[fa:fa-walking Etapas al detalle];
+    B-->E[fa:fa-university fa:fa-bed Lugares de visita y descanso];
+    B-->F[fa:fa-suitcase Equipaje];
+    B-->G[fa:fa-envelope fa:fa-phone Contacto];
 
-C-->H(Representación cartográfica <br> de etapas y localidades.<br> <br> Buscador de etapas <br> y localidades por nombre. <br><br> Creación de 'popups' informativos.)
-D-->I(Etapas: <br/><br>Breve descripción de las etapas. <br><br>Longitud en km.)
-E-->J(Localidades del inicio <br> y fin de etapa: <br> <br>Breve descripción de la localidad. <br><br>Número de albergues.)
-F-->K(Equipaje básico <br> para realizar el Camino.)
-G-->L(Formulario de contacto. <br><br> Número de teléfono y<br> dirección e-mail.)
+    C-->H(Representación cartográfica <br> de etapas y localidades.<br> <br> Buscador de etapas <br> y localidades por nombre. <br><br> Creación de 'popups' informativos.);
+    D-->I(Etapas: <br/><br>Breve descripción de las etapas. <br><br>Longitud en km.);
+    E-->J(Localidades del inicio <br> y fin de etapa: <br> <br>Breve descripción de la localidad. <br><br>Número de albergues.);
+    F-->K(Equipaje básico <br> para realizar el Camino.);
+    G-->L(Formulario de contacto. <br><br> Número de teléfono y<br> dirección e-mail.);
 
-%% estils
-classDef p1 fill:#C0E1FF,stroke:#000000,stroke-width:2px;
-classDef p2 fill:#E4F0FF,stroke:#000000,stroke-width:1px;
-classDef p3 fill:#FFFAD5,stroke:#000000,stroke-width:0.5px;
 
-class A p1;
-class B,C,D,E,F,G p2;
-class H,I,J,K,L p3;
+    classDef p1 fill:#C0E1FF,stroke:#000000,stroke-width:2px;
+    classDef p2 fill:#E4F0FF,stroke:#000000,stroke-width:1px;
+    classDef p3 fill:#FFFAD5,stroke:#000000,stroke-width:0.5px;
 
+    class A p1;
+    class B,C,D,E,F,G p2;
+    class H,I,J,K,L p3;
+```
 
 
 Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
 ![alt text](images/Ways_ofSt._James_in_Europe.png)
 
-## Tema i motivació
-
-## Dades
-
-## Estructura de la web
-
-## Cartografia amn qgis2web
-
-## Dificultats i millores
+## Cartografía con qgis2web
+Click al [enlace](./maps/mapa1/qgis2web_2022_03_23-14_00_53_864876/index.html) para navegar en el mapa.
+<iframe src="./maps/mapa1/qgis2web_2022_03_23-14_00_53_864876/index.html" title="Mapa 1" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:none;">
+ </iframe>
+## Dificultades y mejoras
 Limitacions
