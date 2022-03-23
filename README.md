@@ -4,6 +4,9 @@ https://www.markdownguide.org/cheat-sheet/
 https://stackedit.io/
 https://www.w3schools.com/html/default.asp
 
+## Tema i motivació
+
+## Dades
 
 **bold text**
 
@@ -58,12 +61,6 @@ Inline `code` example...
 Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
 ![alt text](images/Ways_ofSt._James_in_Europe.png)
-
-## Tema i motivació
-
-## Dades
-
-## Estructura de la web
 
 ## Cartografia amn qgis2web
 
