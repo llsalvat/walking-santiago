@@ -22,7 +22,33 @@ https://www.w3schools.com/html/default.asp
 Inline `code` example...
 <br>
 ---
-Esquema: [link]([![](https://mermaid.ink/img/pako:eNqFVE1v00AQ_SsjV1WD5IS20IuLKjWJ3a_AgSJxwD1M1uNk6Xp3Wa9TQtUf0yNnblzzx5g4mw-QgESKNjvvzXvz1uvHSJiCoiSaOLRT-DDM9f4-CKM9aVkYV-f6_FOJSYldMZWqgI-o7qWewC1qL3Fi7iDXuWdUt3vWD8ipqQiutHemaISQix_6jkH87TNoEEAVWniLFqEgIM-L-m4FGAbAQ1BK2yKgYqRHpSjg0oBrtJyRq6Wfw2pjTAWMmgk6qpfNZ5JrCHNe1wJ1bQI_C_y6kV5gTZB-aaTFz-v-F6FOekbKWArd7dRoggEnhMKbdrABoy8778myIi33lyODQOfNxC2eSykQ3ozd2XZUdqOMQCULZFe9ttj-9Bv2yLnvQNv93_BgGaBNNXbUa8stZOAoKDP3wBrb2PoApC6Nq9DLmal7L3I9ZK9XnVWmyZL8smX3Hc2oTchJu-miWH7lYqszMnoifVMAabivli1TbnndGe34K0ixsBTSrN2XUm9GSmAz799kt9Nuhd8tflbkzBKAakxu0lA7UcbyN5314cF48VxLEYQtOgTORclv6IBdDbCS2ixpF0wbdTIOp1HoZNtXhFPdSXVH1ZNafC-NNjBfnaZ0tHq8gfhxlmrZtr0_VHup-OoIDrAeUgn2iBNQKtkbHKZHWRbXfDfuKdk7bD_hb_dBFn6aHNuvp7vU40BNX2eH_6Ee_UF9FahZlp0PT_5JPeydtORAh3P2vO4F_XgQD-M0zuIL9rPZvoyv4uv4Jh6x0mkURxwUx1Dw2-Qx1wB55KdUUR4lvCyoxEb5PMr1E0MbW6CntJDeuIivlaopjrDx5nauRZR419AaNOTXjMMqoJ5-AdFtoS4)](https://mermaid.live/edit#pako:eNqFVE1v00AQ_SsjV1WD5IS20IuLKjWJ3a_AgSJxwD1M1uNk6Xp3Wa9TQtUf0yNnblzzx5g4mw-QgESKNjvvzXvz1uvHSJiCoiSaOLRT-DDM9f4-CKM9aVkYV-f6_FOJSYldMZWqgI-o7qWewC1qL3Fi7iDXuWdUt3vWD8ipqQiutHemaISQix_6jkH87TNoEEAVWniLFqEgIM-L-m4FGAbAQ1BK2yKgYqRHpSjg0oBrtJyRq6Wfw2pjTAWMmgk6qpfNZ5JrCHNe1wJ1bQI_C_y6kV5gTZB-aaTFz-v-F6FOekbKWArd7dRoggEnhMKbdrABoy8778myIi33lyODQOfNxC2eSykQ3ozd2XZUdqOMQCULZFe9ttj-9Bv2yLnvQNv93_BgGaBNNXbUa8stZOAoKDP3wBrb2PoApC6Nq9DLmal7L3I9ZK9XnVWmyZL8smX3Hc2oTchJu-miWH7lYqszMnoifVMAabivli1TbnndGe34K0ixsBTSrN2XUm9GSmAz799kt9Nuhd8tflbkzBKAakxu0lA7UcbyN5314cF48VxLEYQtOgTORclv6IBdDbCS2ixpF0wbdTIOp1HoZNtXhFPdSXVH1ZNafC-NNjBfnaZ0tHq8gfhxlmrZtr0_VHup-OoIDrAeUgn2iBNQKtkbHKZHWRbXfDfuKdk7bD_hb_dBFn6aHNuvp7vU40BNX2eH_6Ee_UF9FahZlp0PT_5JPeydtORAh3P2vO4F_XgQD-M0zuIL9rPZvoyv4uv4Jh6x0mkURxwUx1Dw2-Qx1wB55KdUUR4lvCyoxEb5PMr1E0MbW6CntJDeuIivlaopjrDx5nauRZR419AaNOTXjMMqoJ5-AdFtoS4))
+graph TD
+%% contenidors
+A[fa:fa-child Walking Santiago] 
+    
+A-->B[fa:fa-home Introducción]
+
+B-->C[fa:fa-map Mapa de etapas]
+B-->D[fa:fa-walking Etapas al detalle]
+B-->E[fa:fa-university fa:fa-bed Lugares de visita y descanso]
+B-->F[fa:fa-suitcase Equipaje]
+B-->G[fa:fa-envelope fa:fa-phone Contacto]
+
+C-->H(Representación cartográfica <br> de etapas y localidades.<br> <br> Buscador de etapas <br> y localidades por nombre. <br><br> Creación de 'popups' informativos.)
+D-->I(Etapas: <br/><br>Breve descripción de las etapas. <br><br>Longitud en km.)
+E-->J(Localidades del inicio <br> y fin de etapa: <br> <br>Breve descripción de la localidad. <br><br>Número de albergues.)
+F-->K(Equipaje básico <br> para realizar el Camino.)
+G-->L(Formulario de contacto. <br><br> Número de teléfono y<br> dirección e-mail.)
+
+%% estils
+classDef p1 fill:#C0E1FF,stroke:#000000,stroke-width:2px;
+classDef p2 fill:#E4F0FF,stroke:#000000,stroke-width:1px;
+classDef p3 fill:#FFFAD5,stroke:#000000,stroke-width:0.5px;
+
+class A p1;
+class B,C,D,E,F,G p2;
+class H,I,J,K,L p3;
+
 
 
 Un text explicatiu que apunta a aquest [link](https://www.example.com)
