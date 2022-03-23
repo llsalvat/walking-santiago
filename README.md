@@ -4,7 +4,6 @@ https://www.markdownguide.org/cheat-sheet/
 https://stackedit.io/
 https://www.w3schools.com/html/default.asp
 
-En el siguiente enlace se dispone un esquema de la página web: [Enlace](images/esquema/mermaid_diagram.png)
 
 **bold text**
 
@@ -24,6 +23,8 @@ En el siguiente enlace se dispone un esquema de la página web: [Enlace](images/
 Inline `code` example...
 <br>
 ---
+
+## Estructura de la web
 ```mermaid
 
     graph TD;
