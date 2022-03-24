@@ -2,15 +2,17 @@
 
 ## Tema y motivación
 En el desarrollo de esta web, he escogido la temática del Camino de Santiago, en concreto el Camino Francés. Con ello he descargado las etapas principales del Camino desde la ciudad francesa de Saint Jean Pied-de-Port hasta Santiago de Compostela; fuente del Instituto Geográfico Nacional. 
-<br>
+<br><br>
 A parte, se ha realizado una digitalización de esas localidades inicio y fin de etapa. En estas se ha incluido información respecto al descanso del peregrino, en concreto, el número de albergues disponibles en la localidad. 
-<br>
+<br><br>
 Otros recursos publicados en la web corresponden a una breve descripción de las Etapas y las Localidades de inicio y fin de etapa. 
-<br>
+<br><br>
 También se han incluído imágenes de cada una de las localidades en: images/supply_points.
-<br>
-Finalmente, también se incluye un relato sobre qué materiales concretos y consejos respecto al equipaje debe llevar un peregrino en realización del Camino.
-
+<br><br>
+En adición, se incluye un relato sobre qué materiales concretos y consejos respecto al equipaje debe llevar un peregrino en realización del Camino.
+<br><br>
+Finalmente, se introducirá un apartado para contactar con el responsable para realizar los correspondientes servicios.
+<br><br>
 *Los datos descriptivos se han extraído de:* <br>
 *https://www.alberguescaminosantiago.com/poblaciones/o-pedrouzo-la-coruna-camino-de-santiago/*  <br>
 *https://www.columbus-outdoor.com/blog/llevar-la-mochila-camino-santiago/* <br>
