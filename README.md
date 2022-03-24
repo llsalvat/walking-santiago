@@ -1,12 +1,23 @@
 # Walking Santiago
-Enlaces a recursos:
-https://www.markdownguide.org/cheat-sheet/
-https://stackedit.io/
-https://www.w3schools.com/html/default.asp
 
 ## Tema y motivación
+En el desarrollo de esta web, he escogido la temática del Camino de Santiago, en concreto el Camino Francés. Con ello he descargado las etapas principales del Camino desde la ciudad francesa de Saint Jean Pied-de-Port hasta Santiago de Compostela; fuente del Instituto Geográfico Nacional. 
+<br>
+A parte, se ha realizado una digitalización de esas localidades inicio y fin de etapa. En estas se ha incluido información respecto al descanso del peregrino, en concreto, el número de albergues disponibles en la localidad. 
+<br>
+Otros recursos publicados en la web corresponden a una breve descripción de las Etapas y las Localidades de inicio y fin de etapa. 
+<br>
+También se han incluído imágenes de cada una de las localidades en: images/supply_points.
+<br>
+Finalmente, también se incluye un relato sobre qué materiales concretos y consejos respecto al equipaje debe llevar un peregrino en realización del Camino.
 
-## Datos
+*los datos descriptivos se han extraído de: https://www.alberguescaminosantiago.com/poblaciones/o-pedrouzo-la-coruna-camino-de-santiago/  <br>
+https://www.columbus-outdoor.com/blog/llevar-la-mochila-camino-santiago/ <br>
+https://marlycamino.com/es/como-organizar-una-mochila-para-el-camino-de-santiago/
+*
+
+
+## Datos 
 
 **bold text**
 
@@ -64,13 +75,15 @@ Un text explicatiu que apunta a aquest [link](https://www.example.com)
 
 ## Cartografía con qgis2web
 La siguiente imagen corresponde al diseño de impresión del mapa interactivo publicador en la web. 
+<br>
+<br>
 ![Una foto del Camino de Santiago francés](./images/icon/map1.png)
 
 ## Dificultades y mejoras
 
 ## Recursos
 Enlaces a recursos:
-https://www.markdownguide.org/cheat-sheet/
-https://stackedit.io/
+https://www.markdownguide.org/cheat-sheet/ <br>
+https://stackedit.io/ <br>
 https://www.w3schools.com/html/default.asp
 
