@@ -11,7 +11,8 @@ También se han incluído imágenes de cada una de las localidades en: images/su
 <br>
 Finalmente, también se incluye un relato sobre qué materiales concretos y consejos respecto al equipaje debe llevar un peregrino en realización del Camino.
 
-*Los datos descriptivos se han extraído de:* *https://www.alberguescaminosantiago.com/poblaciones/o-pedrouzo-la-coruna-camino-de-santiago/*  <br>
+*Los datos descriptivos se han extraído de:* <br>
+*https://www.alberguescaminosantiago.com/poblaciones/o-pedrouzo-la-coruna-camino-de-santiago/*  <br>
 *https://www.columbus-outdoor.com/blog/llevar-la-mochila-camino-santiago/* <br>
 *https://marlycamino.com/es/como-organizar-una-mochila-para-el-camino-de-santiago/*
 
