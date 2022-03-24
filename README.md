@@ -85,8 +85,8 @@ La siguiente imagen corresponde al diseño de impresión del mapa interactivo pu
 ## Dificultades y mejoras
 
 ## Recursos
-Enlaces a recursos:
-https://www.markdownguide.org/cheat-sheet/ <br>
-https://stackedit.io/ <br>
-https://www.w3schools.com/html/default.asp
+*Enlaces a recursos:*<br>
+*https://www.markdownguide.org/cheat-sheet/* <br>
+*https://stackedit.io/* <br>
+*https://www.w3schools.com/html/default.asp*
 
