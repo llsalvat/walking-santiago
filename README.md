@@ -29,6 +29,7 @@ A continuación, voy a representar un ejemplo del conjunto de datos que se recog
 <br><br>
 
 **Saint-Jean-Pied-de-Port.** <br>
+![Una foto de Saint-Jean-Pied-de-Port](./images/supply_points/stjean.jpg)<br>
 - Distancia a Santiago: 773 km <br>
 - Número de alojamientos: 12 <br>
 - Breve descripción: Saint-Jean-Pied-de-Port, un lugar más que mítico en el Camino de Santiago, punto clave de encuentro para millones de peregrinos del norte y centro de Europa durante siglos, que sigue rezumando esencia jacobea en todas sus calles y rincones.
