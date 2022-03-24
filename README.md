@@ -21,6 +21,20 @@ Finalmente, se introducirá un apartado para contactar con el responsable para r
 
 
 ## Datos 
+A continuación, voy a representar un ejemplo del conjunto de datos que se recogerán en la web.
+
+**Etapa 1 - Saint-Jean-Pied-de-Port - Roncesvalles** <br>
+- Distancia: 24,2 km <br>
+- Breve descripción: La primera etapa constituye una de las más difíciles del Camino. En plena Navarra francesa el peregrino debe cruzar el Pirineo hacia el Monasterio de Roncesvalles, puerte de la Navarra española, dirección oeste hacia Santiago. 
+<br><br>
+
+**Saint-Jean-Pied-de-Port.** <br>
+- Distancia a Santiago: 773 km <br>
+- Número de alojamientos: 12 <br>
+- Breve descripción: Saint-Jean-Pied-de-Port, un lugar más que mítico en el Camino de Santiago, punto clave de encuentro para millones de peregrinos del norte y centro de Europa durante siglos, que sigue rezumando esencia jacobea en todas sus calles y rincones.
+Es una importante población dentro del Camino de Santiago, ya que en sus cercanías (en Ostabat) confluyen tres importantes ramales del Camino: la Via Turonensis o camino de Tours, la Via Podiensis o camino de Puy y la Via Lemovicensis o camino de Limoges.
+<br>
+
 
 **bold text**
 
