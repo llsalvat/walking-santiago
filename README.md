@@ -21,8 +21,19 @@ Finalmente, se introducirá un apartado para contactar con el responsable para r
 
 
 ## Datos 
-A continuación, voy a representar un ejemplo del conjunto de datos que se recogerán en la web.
-
+El esquema del repositiro GIT es básico. <br>
+En el se encuentran en primer lugar diferentes carpetas: <br>
+- **Data:** que incluye el proyecto y capas cartografiadas en formato Geopackage.<br>
+- **Images:** en ella se incluyen todas las imágenes que se utilizarán en la web. Dentro de la misma hay subcarpetas: equipaje, esquema, icon y supply_points.<br>
+- **Maps:** con toda la información correspondiente al mapa web.<br>
+- **Style:** en ella se incluyen dos archivos .css los cuales he estado realizando pruebas mediante el index.html<br>
+<br><br>
+También encontramos:<br>
+- **.gitignore**: se han incluido documentos de tipo temporal (relacionados con SIG, Office) o no interesantes para el lector (contraseñas).
+- **LICENSE**: La licencia 
+<br><br>
+A continuación,  voy a representar a modo de ejemplo del conjunto de datos que se recogerán en la web, unos textos o imagenes que se incluirán en sus respectivos apartados:
+<br><br>
 **Etapa 1 - Saint-Jean-Pied-de-Port - Roncesvalles** <br>
 - Distancia: 24,2 km <br>
 - Breve descripción: La primera etapa constituye una de las más difíciles del Camino. En plena Navarra francesa el peregrino debe cruzar el Pirineo hacia el Monasterio de Roncesvalles, puerte de la Navarra española, dirección oeste hacia Santiago. 
@@ -113,10 +124,10 @@ La siguiente imagen corresponde al diseño de impresión del mapa interactivo pu
 
 ## Dificultades y mejoras
 Las principales dificultades o limitaciones se remiten al uso del lenguaje de programación. Si bien es cierto que he programado con Python anteriomente, nunca había usado el lenguaje **html** para el desarrollo de una web. <br> 
-Por otra parte, el uso del respositorio GIT podríamos decir que lo he empezado a dominar en pocas sesiones. 
+No obstante, el uso del respositorio GIT podríamos decir que lo he empezado a dominar en pocas sesiones. 
 <br><br>
-En cuanto a mejoras, la intención es mejorar mapas y por tanto la cartografia temática, así como mejorar en el uso de los popups, que a pesar de poderlos representar con la información que deseaba en el proyecto de QGIS, en cuanto se realiza el mapa web no se pueden ver esa información en los popups que desearía; entiendo que la mejora vendrá con una revisión de los pasos realizados. <br>
-Por otra parte, las claras mejoras que creo se van a desarrollar se tratan de la propia web. He centrado los esfuerzos en obtener y recoger todo tipo de contenido e información que irá atada a la web; por tanto, en las siguientes sesiones de la asignatura el objetivo principal es plasmar esta misma en la página web, así como incluir mejoras o nuevos apartados si el tiempo y las habilidades propias lo permiten.
+En cuanto a mejoras, la intención es mejorar mapas y por tanto la cartografia temática, así como mejorar en el uso de los popups, que a pesar de poderlos representar con la información que deseaba en el proyecto de QGIS, en cuanto se realiza el mapa web no se puede ver esa misma información; entiendo que la mejora vendrá con una revisión de los pasos realizados. <br><br>
+Por otra parte, las claras mejoras que se van a desarrollar en un futuro cercano se tratan de la propia web. He centrado los esfuerzos en obtener y recoger todo tipo de contenido e información que irá atada a la web; por lo tanto, en las siguientes sesiones de la asignatura el objetivo principal es plasmar esta misma en la página web, así como incluir mejoras o nuevos apartados si el tiempo y las habilidades propias lo permiten.
 
 ## Recursos
 *Enlaces a recursos:*<br>
