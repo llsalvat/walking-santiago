@@ -51,7 +51,7 @@ Finalmente, se introducirá un apartado para contactar con el responsable para r
 ## Datos 
 El esquema del repositiro GIT es básico. <br>
 En el se encuentran en primer lugar diferentes carpetas: <br>
-- **Data:** que incluye el proyecto y capas cartografiadas en formato Geopackage.<br>
+- **Data:**  incluye el proyecto y capas cartografiadas en formato Geopackage. También incluye un documento texto con toda la información sobre etapas, localidades, apartados de la web, etc.<br>
 - **Images:** en ella se incluyen todas las imágenes que se utilizarán en la web. Dentro de la misma hay subcarpetas: equipaje, esquema, icon y supply_points.<br>
 - **Maps:** con toda la información correspondiente al mapa web.<br>
 - **Style:** en ella se incluyen dos archivos .css los cuales he estado realizando pruebas mediante el index.html<br>
