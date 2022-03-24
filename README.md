@@ -1,5 +1,5 @@
 # Walking Santiago
-Website showing different resources and lands
+Enlaces a recursos:
 https://www.markdownguide.org/cheat-sheet/
 https://stackedit.io/
 https://www.w3schools.com/html/default.asp
@@ -63,6 +63,14 @@ Un text explicatiu que apunta a aquest [link](https://www.example.com)
 ![alt text](images/Ways_ofSt._James_in_Europe.png)
 
 ## Cartografía con qgis2web
+La siguiente imagen corresponde al diseño de impresión del mapa interactivo publicador en la web. 
 ![Una foto del Camino de Santiago francés](./images/icon/map1.png)
+
 ## Dificultades y mejoras
-Limitacions
+
+## Recursos
+Enlaces a recursos:
+https://www.markdownguide.org/cheat-sheet/
+https://stackedit.io/
+https://www.w3schools.com/html/default.asp
+
