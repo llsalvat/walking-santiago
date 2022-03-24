@@ -28,13 +28,27 @@ A continuación, voy a representar un ejemplo del conjunto de datos que se recog
 - Breve descripción: La primera etapa constituye una de las más difíciles del Camino. En plena Navarra francesa el peregrino debe cruzar el Pirineo hacia el Monasterio de Roncesvalles, puerte de la Navarra española, dirección oeste hacia Santiago. 
 <br><br>
 
-**Saint-Jean-Pied-de-Port.** <br>
-![Una foto de Saint-Jean-Pied-de-Port](./images/supply_points/stjean.jpg)<br>
+**Saint-Jean-Pied-de-Port.** <br><br>
+![Una foto de Saint-Jean-Pied-de-Port](./images/supply_points/stjean.jpg)<br><br>
 - Distancia a Santiago: 773 km <br>
 - Número de alojamientos: 12 <br>
 - Breve descripción: Saint-Jean-Pied-de-Port, un lugar más que mítico en el Camino de Santiago, punto clave de encuentro para millones de peregrinos del norte y centro de Europa durante siglos, que sigue rezumando esencia jacobea en todas sus calles y rincones.
 Es una importante población dentro del Camino de Santiago, ya que en sus cercanías (en Ostabat) confluyen tres importantes ramales del Camino: la Via Turonensis o camino de Tours, la Via Podiensis o camino de Puy y la Via Lemovicensis o camino de Limoges.
 <br>
+
+**Qué equipaje llevo?** <br><br>
+![Foto de equipaje](./images/equipaje/equipaje-camino-de-santiago-2.jpg)<br><br>
+- Ropa y calzado:
+Aquí depende mucho de para qué época del año estés preparando la mochila para el Camino de Santiago. También si vas a hacer la ruta completa del camino Francés desde Roncesvalles o si solamente vas a realizar el tramo gallego.
+- Zapatillas de senderismo. De caña baja o media. Es preferible que ya las hayas usado una temporada y comprobado su comodidad. En invierno puede ser necesario llevar botas de trekking.
+- Chanclas. Necesarias para la ducha en el albergue y para que los pies respiren tras cada jornada.
+- Camisetas. 2 para caminar y una para el término de cada jornada.
+- Pantalones. 2 para caminar y uno para descanso. Largos o cortos, según la época y el gusto.
+- Jersey o sudadera. 1 en verano, 2 en invierno.
+- Ropa interior. Mejor sin costuras. 3 mudas completas. 2 si solo vas a hacer el tramo final.
+- Calcetines. 2 o 3 pares. Siempre sin costuras.
+- Gorra o visera para proteger del frío y del calor.
+- Impermeable. Si vas a hacer un tramo puedes mirar la previsión del tiempo y quizá no lo necesites. Pero para una ruta larga, no dudes de su importancia.
 
 
 **bold text**
@@ -98,6 +112,11 @@ La siguiente imagen corresponde al diseño de impresión del mapa interactivo pu
 ![Una foto del Camino de Santiago francés](./images/icon/map1.png)
 
 ## Dificultades y mejoras
+Las principales dificultades o limitaciones se remiten al uso del lenguaje de programación. Si bien es cierto que he programado con Python anteriomente, nunca había usado el lenguaje **html** para el desarrollo de una web. <br> 
+Por otra parte, el uso del respositorio GIT podríamos decir que lo he empezado a dominar en pocas sesiones. 
+<br><br>
+En cuanto a mejoras, la intención es mejorar mapas y por tanto la cartografia temática, así como mejorar en el uso de los popups, que a pesar de poderlos representar con la información que deseaba en el proyecto de QGIS, en cuanto se realiza el mapa web no se pueden ver esa información en los popups que desearía; entiendo que la mejora vendrá con una revisión de los pasos realizados. <br>
+Por otra parte, las claras mejoras que creo se van a desarrollar se tratan de la propia web. He centrado los esfuerzos en obtener y recoger todo tipo de contenido e información que irá atada a la web; por tanto, en las siguientes sesiones de la asignatura el objetivo principal es plasmar esta misma en la página web, así como incluir mejoras o nuevos apartados si el tiempo y las habilidades propias lo permiten.
 
 ## Recursos
 *Enlaces a recursos:*<br>
