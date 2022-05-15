@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Walking Santiago</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+ 
+</head>
+
+<body>
+  <div class="menu-container">
+  <div class="menu">
+  <div class="menu-table flex-row-space-between">
+    <div class="logo flex-row-center">
+    <a href="index.html">Walking Santiago</a>
+    </div>
+    <a class="menu-button" tabindex="0" href="javascript:void(0)">
+      <img src="img/menu.png">
+    </a>
+    <div class="menu-items flex-row-center flex-item">
+      <a href="index.html" class="menu-widget">Inicio</a>
+      <a href="mapa_de_etapas.html" class="menu-widget">Mapa de etapas</a>
+      <a href="etapas_al_detalle.html" class="menu-index">Etapas al detalle</a>
+      <a href="visita_y_descanso.html" class="menu-widget">Visita y descanso</a>
+      <a href="equipaje.html" class="menu-widget">Equipaje</a>
+      <a href="contacto.html" class="menu-widget">Contacto</a>
+      <a href="https://github.com/llsalvat/walking-santiago">GitHub</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #E8E8E8;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #F0F0F0;
+}
+</style>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+
+
+
+ <div class="content-container">
+
+    <div class="content">
+
+      <div class="content-table flex-column">
+
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Intro-->
+        <!--Video - Start Text with Iframe-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+
+    <h2 class="add-top-margin"> Etapas del Camino francés </h2>
+    <hr>
+    <p class="text">
+    En la actualidad, el acceso más conocido del Camino Francés es el que hace su entrada en Navarra por los Pirineos a través de Roncesvalles. El recorrido nos conduce desde los paisajes pirenaicos del norte hasta las llanuras de la zona media a través de bosques de hayas, campos de cereal y viñedos. Un itinerario en el que abundan pueblos-calle, puentes medievales, grandes monumentos, paisajes que cambian de color con cada estación, bodegas y una gastronomía de gran calidad.
+
+    <a class="image adaptive-image" style="background-image: url('images/icon/intro_etapes.jpg'); border: 0.5px solid; color: black; height: 250px;" href="images/icon/intro_etapes.jpg" target="_blank"></a>
+                    <!--Start Credits-->
+
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+         Créditos elaboración: <span class="highlight-text">Santiago Ways.</span>
+            </p>
+          </div>
+      
+        <!--End Credits-->
+    </p>
+
+    <h2 class="add-top-margin"> Etapa 1: Saint Jean Pied de Port - Roncesvalles </h2>
+    <hr>
+    <p class="text">
+    Longitud de recorrido: 24,2 km.<br><br>
+    Albergues a lo largo de la etapa: 12.<br><br>
+    Distancia a Santiago: 764 km.
+
+    </p>
+    <h2>Etapa 2: Roncesvalles - Larrasoaña</h2>
+    <hr>
+    <h2>Material básico</h2>
+    <p class="text">    
+    Longitud de recorrido: 26,5 km.<br><br>
+    Albergues a lo largo de la etapa: 3.<br><br>
+    Distancia a Santiago: 739,8 km.</p>
+
+    <h2>Etapa 3: Larrasoaña - Cizur Menor</h2><hr>
+    <p class="text">  
+    Longitud de recorrido: 19,8 km.<br><br>
+    Albergues a lo largo de la etapa: 2.<br><br>
+    Distancia a Santiago: 713,3 km.
+    </p>
+
+    <h2>Etapa 4: Cizur Menor - Puente la Reina</h2><hr>
+    <p class="text">  
+    Longitud de recorrido: 19 km.<br><br>
+    Albergues a lo largo de la etapa: 6.<br><br>
+    Distancia a Santiago: 693,5 km.
+    </p>
+
+
+    <h2>Etapa 6: Puente la Reina - Estella</h2><hr>
+    <p class="text">  
+    Longitud de recorrido: 21,5 km.<br><br>
+    Albergues a lo largo de la etapa: 5.<br><br>
+    Distancia a Santiago: 674,5 km.
+    </p>
+
+    <h2>Etapa 7: Estella - Los Arcos</h2><hr>
+    <p class="text">  
+    Longitud de recorrido: 21,7 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 653 km.
+    </p>
+
+    <h2>Etapa 8: Los Arcos - Logroño</h2><hr>
+    <p class="text">  
+    Longitud de recorrido: 27,9 km.<br><br>
+    Albergues a lo largo de la etapa: 8.<br><br>
+    Distancia a Santiago: 631,3 km.
+    </p>
+
+
+    <h2>Etapa 9: Logroño - Nájera</h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 28 km.<br><br>
+    Albergues a lo largo de la etapa: 7.<br><br>
+    Distancia a Santiago: 603,4 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 10: Nájera - Santo Domingo de la Calzada </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 21,4 km.<br><br>
+    Albergues a lo largo de la etapa: 2.<br><br>
+    Distancia a Santiago: 575,4 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 11: Santo Domingo de la Calzada - Belorado </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 22,3 km.<br><br>
+    Albergues a lo largo de la etapa: 6.<br><br>
+    Distancia a Santiago: 554 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 12: Belorado - San Juan de Ortega </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 23,3 km.<br><br>
+    Albergues a lo largo de la etapa: 2.<br><br>
+    Distancia a Santiago: 531,7 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 13: San Juan de Ortega - Burgos </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 25,2 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 508,4 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 14: Burgos - Hontanas </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 30,9 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 483,2 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 15: Hontanas - Boadilla del Camino </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 28,2 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 452,3 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 16: Boadilla del Camino - Carrión de los Condes </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 24,4 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 424,1 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 17: Carrión de los Condes - Terradillos de los Templarios </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 26,7 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 399,7 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 18: Terradillos de los Templarios - El Burgo Ranero </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 30,7 km.<br><br>
+    Albergues a lo largo de la etapa: 2.<br><br>
+    Distancia a Santiago: 373 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 19: El Burgo Ranero - Mansilla de las Mulas </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 18,5 km.<br><br>
+    Albergues a lo largo de la etapa: 3.<br><br>
+    Distancia a Santiago: 342,3 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 20: Mansilla de las Mulas - León </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 18,8 km.<br><br>
+    Albergues a lo largo de la etapa: 6.<br><br>
+    Distancia a Santiago: 323,8 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 21: León - San Martín del Camino </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 24,6 km.<br><br>
+    Albergues a lo largo de la etapa: 3.<br><br>
+    Distancia a Santiago: 305 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 22: San Martín del Camino - Astorga </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 23,4 km.<br><br>
+    Albergues a lo largo de la etapa: 2.<br><br>
+    Distancia a Santiago: 280,4 km.</p>
+    
+    <h2 class="add-top-margin"> Etapa 23: Astorga - Rabanal del Camino </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 19,7 km.<br><br>
+    Albergues a lo largo de la etapa: 4.<br><br>
+    Distancia a Santiago: 257 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 24: Rabanal del Camino - Poferrada</h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 32,2 km.<br><br>
+    Albergues a lo largo de la etapa: 3.<br><br>
+    Distancia a Santiago: 273,3 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 25: Ponferrada - Villafranca del Bierzo </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 22,9 km.<br><br>
+    Albergues a lo largo de la etapa: 6.<br><br>
+    Distancia a Santiago: 205,1 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 26: Villafranca del Bierzo - O Cebreiro </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 28,2 km.<br><br>
+    Albergues a lo largo de la etapa: 1.<br><br>
+    Distancia a Santiago: 182,2 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 27: O Cebreiro - Triacastela </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 21,1 km.<br><br>
+    Albergues a lo largo de la etapa: 8.<br><br>
+    Distancia a Santiago: 154 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 28: Triacastela - Sarria </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 18,1 km.<br><br>
+    Albergues a lo largo de la etapa: 20.<br><br>
+    Distancia a Santiago: 132,9 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 29: Sarria - Portomarín </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 22,5 km.<br><br>
+    Albergues a lo largo de la etapa: 17.<br><br>
+    Distancia a Santiago: 114,8 km.</p>
+
+
+    <h2 class="add-top-margin"> Etapa 30: Portomarín - Palas de Rei </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 25,1 km.<br><br>
+    Albergues a lo largo de la etapa: 11.<br><br>
+    Distancia a Santiago: 92,3 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 31: Palas de Rei - Arzúa</h2>
+    <hr>
+    <p class="text">E  
+    Longitud de recorrido: 28,8 km.<br><br>
+    Albergues a lo largo de la etapa: 18.<br><br>
+    Distancia a Santiago: 67,2 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 32: Arzúa - O Pedrouzo </h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 19,3 km.<br><br>
+    Albergues a lo largo de la etapa: 8.<br><br>
+    Distancia a Santiago: 38,4 km.</p>
+
+    <h2 class="add-top-margin"> Etapa 33: O Pedrouzo - Santiago de Compostela</h2>
+    <hr>
+    <p class="text">  
+    Longitud de recorrido: 19,1 km.<br><br>
+    Albergues a lo largo de la etapa: 23.<br><br>
+    Distancia a Santiago: 19,1 km.</p>
+
+                    <!--Start Credits-->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+         Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+            </p>
+          </div>
+        </div>
+        <!--End Credits-->
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>

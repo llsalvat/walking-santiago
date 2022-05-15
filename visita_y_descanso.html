@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Walking Santiago</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+ 
+</head>
+
+<body>
+  <div class="menu-container">
+  <div class="menu">
+  <div class="menu-table flex-row-space-between">
+    <div class="logo flex-row-center">
+    <a href="index.html">Walking Santiago</a>
+    </div>
+    <a class="menu-button" tabindex="0" href="javascript:void(0)">
+      <img src="img/menu.png">
+    </a>
+    <div class="menu-items flex-row-center flex-item">
+      <a href="index.html" class="menu-widget">Inicio</a>
+      <a href="mapa_de_etapas.html" class="menu-widget">Mapa de etapas</a>
+      <a href="etapas_al_detalle.html" class="menu-widget">Etapas al detalle</a>
+      <a href="visita_y_descanso.html" class="menu-index">Visita y descanso</a>
+      <a href="equipaje.html" class="menu-widget">Equipaje</a>
+      <a href="contacto.html" class="menu-widget">Contacto</a>
+      <a href="https://github.com/llsalvat/walking-santiago">GitHub</a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #E8E8E8;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #F0F0F0;
+}
+</style>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+
+ <div class="content-container">
+
+    <div class="content">
+
+      <div class="content-table flex-column">
+
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Intro-->
+        <!--Video - Start Text with Iframe-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+
+
+    <h2 class="add-top-margin"> Descubre los rincones del Camino de Santiago</h2>
+    <hr>
+    <p class="text">El Camino de Santiago es largo y, en ocasiones, duro. Esta ruta ancestral es recorrida cada año por miles de peregrinos. Solamente durante el mes de Octubre de 2017 se recibieron en la Oficina de Peregrinaciones a 31.341 peregrinos, lo que da una muestra de su dimensión a nivel global. Si tú también estás planeando ponerte en marcha te estarás preguntando qué llevar en la mochila para el camino de Santiago.
+    A la hora de organizar tu mochila para el Camino de Santiago es importante que tengas en cuenta dos cuestiones. La primera es no olvidar nada imprescindible; la segunda no sobrecarcargarla con cosas innecearias. Partiendo de esta premisa todo te resultará más sencillo. </p>
+
+
+    <h2>Saint Jean Pied de Port</h2>
+    <hr>
+    <p class="text">Saint-Jean-Pied-de-Port, un lugar más que mítico en el Camino de Santiago, punto clave de encuentro para millones de peregrinos del norte y centro de Europa durante siglos, que sigue rezumando esencia jacobea en todas sus calles y rincones.<br><br>
+Es una importante población dentro del Camino de Santiago, ya que en sus cercanías (en Ostabat) confluyen tres importantes ramales del Camino: la Via Turonensis o camino de Tours, la Via Podiensis o camino de Puy y la Via Lemovicensis o camino de Limoges.
+</p>
+   <a class="image adaptive-image" style="background-image: url('images/supply_points/stjean.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/stjean.jpg" target="_blank"></a>
+
+    <h2>Roncesvalles</h2><hr>
+    <p class="text">
+      Santa María de Roncesvalles es, con toda seguridad, uno de los lugares más emblemáticos del Occidente europeo, en cuyas dilatadas fronteras se consideró siempre el hito más relavante y entrañable de la ruta compostelana.<br><br>
+Esta localidad fue, y sigue siendo, un enclave fundamental para los peregrinos de la ruta que encuentran aquí numerosas instituciones religiosas dedicadas a su atención tras el siempre difícil paso de los montes Pirineos entre Francia y España.<br><br>
+Es considerada por muchos, debido a la fuerza histórica y simbólica del conjunto de la localidad en el desarrollo de la peregrinación, el segundo gran centro jacobeo de la Ruta después de Compostela.
+
+  <a class="image adaptive-image" style="background-image: url('images/supply_points/roncesvalles.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/roncesvalles.jpg" target="_blank"></a>
+  </p>
+
+    <h2>Larrasoaña</h2><hr>
+    <p class="text">
+Larrasoaña es una pequeña localidad navarra —poco más de 130 habitantes— perteneciente al municipio de Esteribar, a la que llegamos tras atravesar Zubiri, punto de parada y descanso para los peregrinos más fuertes que vienen de Roncesvalles por el Camino Francés.
+<br><br>
+Se trata de un punto destacado en la tradición jacobea, puesto que ya contaba con un hospital de peregrinos en el siglo XI regentado por monjes agustinos y que funcionaba como clavería del de Roncesvalles.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/larrasoana.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/larrasoana.jpg" target="_blank"></a>
+    </p>
+
+
+    <h2>Cizur</h2><hr>
+    <p class="text">
+    Cizur Menor es una población situada a 5 kilómetros del centro de Pamplona, capital de Navarra, y a apenas 2 km. de la Universidad de Navarra, atravesada por el trazado del Camino de Santiago.
+    <br><br>
+    El servicio comarcal de autobuses llega desde Pamplona hasta Cizur Menor cada hora.
+    <a class="image adaptive-image" style="background-image: url('images/supply_points/cizur.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/cizur.jpg" target="_blank"></a>
+
+    </p>
+
+    <h2>Puenta la Reina</h2><hr>
+    <p class="text">
+   Puente la Reina es una villa situada en la Comunidad Foral de Navarra, en la Merindad de Pamplona, a 24 km de la capital de esta comunidad (Pamplona) y en la comarca de Valdizarbe.
+<br><br>
+Se trata de una de las poblaciones más emblemáticas del Camino, cuyo nombre aparece ya en el Códice Calixtino: “Son cuatro los caminos a Santiago que en Puente la Reina, ya en tierras de España, se reúnen en uno solo”.
+<br><br>
+En realidad la señalización oficial marca la unión de las rutas que provienen de Roncesvalles y de Somport un poco antes, en la plaza de los Fueros de la localidad de Obanos.
+<br><br>
+Puente la Reina es, por tanto, la primera población que atraviesa el Camino convertido en una sola ruta: el Camino Francés.
+    <a class="image adaptive-image" style="background-image: url('images/supply_points/puentelareina.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/puentelareina.jpg" target="_blank"></a>
+
+
+    </p>
+
+    <h2>Estella</h2><hr>
+    <p class="text">
+    Estella, importante ciudad monumental nacida al calor del Camino de Santiago, se encuentr a mitad de camino entre Pamplona y Logroño, en una zona de contacto entre la Montaña y la Ribera de Navarra.
+<br><br>
+Aymeric Picaud la definió en el Codex Calixtinus, donde figura como meta de la etapa desde Pamplona, como “fértil en buen pan, óptimo vino, carne y pescado, y llena de toda suerte de felicidades”, honra bien merecida por el servicio que los francos otorgaban a los foráneos y que ha perdurado a lo largo de los años como una leyenda cierta entre los caminantes.
+    <a class="image adaptive-image" style="background-image: url('images/supply_points/estella.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/estella.jpg" target="_blank"></a>
+
+    </p>
+
+    <h2 class="add-top-margin">Los Arcos</h2>
+    <hr>
+    <p class="text">Los Arcos, importante ciudad monumental nacida al calor del Camino de Santiago, se encuentra a mitad de camino entre Pamplona y Logroño, en una zona de contacto entre la Montaña y la Ribera de Navarra.
+<br><br>
+Aymeric Picaud la definió en el Codex Calixtinus, donde figura como meta de la etapa desde Pamplona, como “fértil en buen pan, óptimo vino, carne y pescado, y llena de toda suerte de felicidades”, honra bien merecida por el servicio que los francos otorgaban a los foráneos y que ha perdurado a lo largo de los años como una leyenda cierta entre los caminantes.
+    <a class="image adaptive-image" style="background-image: url('images/supply_points/losarcos.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/losarcos.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Logroño</h2>
+    <hr>
+    <p class="text">Logroño es la capital de la Comunidad Autónoma de La Rioja, importante ciudad y final de etapa del Camino Francés para muchos peregrinos, así como también lugar de inicio de la peregrinación para otros muchos.<br><br>
+La capital de la comunidad autónoma riojana se articuló originalmente en torno al Camino de Santiago y debía prestar buena asistencia a los peregrinos porque Aymeric Picaud habla bien de sus recursos en el Codex Calixtinus: “Por Logroño pasa un río enorme, llamado Ebro, de saludables aguas y abundantes peces”, comenta, tras varios comentarios negativos de otras zonas aledañas.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/logroño.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/logroño.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Nájera</h2>
+    <hr>
+    <p class="text">
+    Nájera es una importante población de La Rioja —supera los 8.000 habitantes— que ocupa el punto central en el tramo riojano del Camino de Santiago, a 26 km. de Logroño, 16 de Santo Domingo de la Calzada y 25 de Haro.
+<br><br>
+Tradicional final de etapa en el Camino Francés para muchísimos peregrinos, cuenta con todos los servicios necesarios para el descanso y el ocio, así como un importante patrimonio histórico y cultural que merece la pena ser visitado con calma y detenimiento.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/najera.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/najera.jpg" target="_blank"></a>
+
+    </p>
+
+    <h2 class="add-top-margin">Santo Domingo de la Calzada</h2>
+    <hr>
+    <p class="text">Santo Domingo de la Calzada es una importante localidad de La Rioja (algo más de 6.700 habitantes), situada a orillas del río Oja.
+<br><br>
+Su nombre procede de su fundador Domingo García, que creó un puente, un hospital y albergue de peregrinos, para facilitar el peregrinaje del Camino de Santiago a su paso por la localidad. Es famoso el milagro de la gallina, que cantó después de estar asada, en recuerdo del cual en la catedral hay siempre un gallo y una gallina viva.
+<br><br>
+Además de ser habitualmente final de etapa del Camino Francés, esta localidad supone el final del Camino Vasco del Interior, el trazado que comienza en Irún y llega hasta aquí para unirse a la principal ruta de peregrinación jacobea.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/stodomingo.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/stodomingo.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Belorado</h2>
+    <hr>
+    <p class="text">Belorado es una importante localidad (algo más de 2.00 habitantes) perteneciente a la provincia de Burgos, ubicado al este de la provincia, en la falda de la Sierra de la Demanda, importante núcleo del Camino Francés, final de etapa para muchos peregrinos.
+<br><br>
+Se encuentra situada en la comarca de Montes de Oca, a 45 kilómetros de Burgos.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/belorado.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/belorado.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">San Juan de Ortega</h2>
+    <hr>
+    <p class="text">San Juan de Ortega es una pequeña localidad (18 habitantes) situada en la provincia de Burgos, perteneciente al Ayuntamiento de Barrios de Colina.
+<br><br>
+El Camino de Santiago hace de este pequeño pueblo un punto de encuentro, situado en un entorno tranquilo y rico en patrimonio cultural y medioambiental.
+Aymeric Picaud alaba en el Codex Calixtinus estas tierras: “Pasados los Montes de Oca está Castilla, tierra llena de tesoros, abunda en oro y plata, telas y fortísimos caballos, y es fértil en pan, vino, carne…”.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/sanjuan.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/sanjuan.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Burgos</h2>
+    <hr>
+    <p class="text">La ciudad de Burgos, situada de forma estratégica en la ruta del Camino de Santiago, conserva todo su esplendor medieval.
+<br><br>
+Además de una importante historia, Burgos posee una importantísima riqueza artística y cultural, cuya máxima expresión es la famosa Catedral, obra maestra del gótico y declarada Patrimonio de la Humanidad.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/burgos.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/burgos.jpg" target="_blank"></a>
+</p>
+
+
+    <h2 class="add-top-margin">Hontanas</h2>
+    <hr>
+    <p class="text">Hontanas es una pequeña población de poco más de 60 habitantes de la provincia de Burgos situada en pleno Camino Francés, a 42 km. de la capital provincial.
+    <br><br>Su núcleo urbano fue declarado Bien de Interés Cultural (BIC) en 1999 por su valor como Conjunto Histórico Artístico.
+    <a class="image adaptive-image" style="background-image: url('images/supply_points/hontanas.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/hontanas.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Boadilla del Camino</h2>
+    <hr>
+    <p class="text">Boadilla del Camino es una pequeña localidad de la provincia de Palencia —poco más de 120 habitantes— en la Tierra de Campos, atravesada por el Camino de Santiago (Camino Francés), dedicada básicamente a la agricultura.<br><br>
+Se caracteriza dentro del orbe jacobeo porque en el siglo XIV fue una fuente de servicios para los peregrinos, con dos hospitales y tres iglesias.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/boadilla.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/boadilla.jpg" target="_blank"></a>
+</p>
+
+
+    <h2 class="add-top-margin">Carrión de los Condes</h2>
+    <hr>
+    <p class="text">Carrión de los Condes es una localidad de la provincia de Palencia —en pleno Camino de Santiago Francés—, una ciudad donde la historia, la naturaleza, el arte, la gastronomía y las tradiciones tradiciones centenarias se unen con la hospitalidad de sus gentes.
+<br><br>
+Localidad importante en el ámbito jacobeo desde muy pronto, como se observa en la anotación que hace Aymeric Picaud en el Codex Calixtinus: “Carrión es villa industriosa, muy buena y rica en pan, vino, carne y en toda clase de productos”.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/carrion.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/carrion.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Terradillos de los Templarios</h2>
+    <hr>
+    <p class="text">Terradillos de los Templarios es una pequeña localidad —poco más de 70 habitantes—, y también una pedanía del municipio de Lagartos, atravesada por el Camino Francés, en la comarca de la Vega-Valdavia en la provincia de Palencia.<br><br>
+
+El nombre de la localidad se asocia a la Ordens del Temple, del que fue señorío, y a una curiosa leyenda de la gallina de los huevos de oro.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/terradillos.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/terradillos.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">El Burgo Ranero</h2>
+    <hr>
+    <p class="text">El Burgo Ranero es una población leonesa del Camino de Santiago, situada al sureste de la provincia, en la Tierra de Campos, en pleno Camino Francés.<br><br>
+
+En esta pequeña localidad de 250 habitantes es obligada la referencia a Doménico Laffi,  peregrino del siglo XVII que ha dado su nombre a un albergue —construido en 1990— que el Ayuntamiento de El Burgo Ranero ofrece a los caminantes.<br><br>
+Laffi relata en su libro de viaje la situación hace tres siglos: «nos procuramos albergue —señala— pero tan pobre que tuvimos que dormir en el suelo, porque éstos son todos pastores de ovejas, que viven en esta villa, hecha toda de cabañas cubiertas de paja«.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/elburgo.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/elburgo.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Mansilla de las Mulas</h2>
+    <hr>
+    <p class="text">Mansilla de las Mulas es un municipio de la provincia de León, que cuenta con algo más de 1.700 habitantes. Antigua villa amurallada con trazado medieval que sirve de unión entre el Real Camino Francés y la Vía Trajana en el camino hacia Santiago de Compostela.
+<br><br>
+También es punto de llegada de otra ruta que parte de San Vicente de la Barquera, Cantabria, enlazando el Camino del Norte con el Francés.
+Pero la importancia de la villa, más allá del Camino, está en sus murallas, que sirvieron de defensa en este paso de vital importancia para los intereses reales y las ciudades de Oviedo y León.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/mansilla.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/mansilla.jpg" target="_blank"></a>
+</p>
+    
+    <h2 class="add-top-margin">León</h2>
+    <hr>
+    <p class="text">León es una ciudad antigua, con más de 20 siglos de historia y una envolvente atmósfera histórica, pero con un espíritu joven.
+<br><br>
+Lugar de paso del Camino de Santiago, la ciudad de León siempre acoge y recibe a peregrinos, turistas y viajeros con el corazón y los brazos abiertos.
+Capital de la provincia del mismo nombre, una gran ciudad siempre vinculada al Camino de Santiago, cosmopolita y dinámica, que merece la pena visitar en cualquier momento del año.
+<br><br>
+En la actualidad León es una ciudad próspera, llena de cultura, historia y arquitectura, que combina los edificios más antiguos con modernos barrios residenciales que han ido creciendo alrededor del centro.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/leon.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/leon.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">San Martín del Camino</h2>
+    <hr>
+    <p class="text">San Martín del Camino es una pedanía del municipio leonés de Santa Marina del Rey, situado en pleno Camino de Santiago Francés, siendo final de etapa para muchos peregrino.<br><br>
+
+Con algo más de 350 habitantes, ofrece al peregrino bar, restaurante y tienda, así como alojamientos.
+A la vera de la carretera nacional N-120 y a medio camino entre León y Astorga, es un pueblo caracterizado por el trasiego tanto de vehículos de motor en una ruta colapsada, como de peregrinos, en busca de la cada vez más cercana Santiago de Compostela.<br><br>
+
+Su vinculación con la Ruta Jacobea queda doblemente demostrada en su topónimo, donde se hace mención al Camino y a la advocación más extendida en él, la de San Martín de Tours, a quien está dedicada la iglesia.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/sanmartin.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/sanmartin.jpg" target="_blank"></a>
+</p>
+
+
+    <h2 class="add-top-margin">Astorga</h2>
+    <hr>
+    <p class="text">Astorga, la Austurica Augusta romana, es una importante ciudad leonesa (algo más de 12.000 habitantes) cargada de historia, la que se ha construido a lo largo de sus más de 2.000 años de vida.
+    <br><br>
+    Un conjunto histórico artístico, cabecera de la vía romana que nacía en Emerita Augusta, hoy Mérida, y finalizaba en Astorga.
+    En ella confluyen la Vía de la Plata, itinerario de origen romano, comercial, militar y de peregrinos, con el Camino Francés. Esta condición hizo de Astorga la segunda población con más hospitales jacobeos a través del tiempo, sólo superada por Burgos.
+    <br><br>
+    Es, en su conjunto, uno de los grandes centros históricos de las Rutas Jacobeas, con numerosos vestigios arqueológicos que se remontan a la época romana.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/astorga.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/astorga.jpg" target="_blank"></a>
+    </p>
+
+
+    <h2 class="add-top-margin">Rabanal del Camino</h2>
+    <hr>
+    <p class="text">Rabanal del Camino es un bonito pueblo donde los peregrinos encuentran todo tipo de servicios, al centrar en el Camino de Santiago prácticamente toda su actividad económica a pesar de su reducido tamaño (unos 60 habitantes, aproximadamente).<br><br>
+
+Aparece citada en dos ocasiones en el libro V del Codex Calixtinus como «Raphanellus». En la primera, en el capítulo II, se refiere a ella como fin de etapa: “La novena va de León a Rabanal. La décima, de Rabanal hasta Villafranca, en la boca del valle del [río] Valcarce”. En el V se menciona como el primero de los lugares en los que trabajaron los viatores que trabajaron en la Ruta y sus servicios en tiempos de Alfonso VII: “Prepararon, por piadoso amor de Dios y del Apóstol, el Camino de Santiago desde Rabanal hasta Portomarín, con anterioridad al año del Señor de 1120”.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/rabanal.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/rabanal.jpg" target="_blank"></a>
+</p>
+
+
+    <h2 class="add-top-margin">Ponferrada</h2>
+    <hr>
+    <p class="text">Ponferrada es una gran ciudad de la provincia de Léon, capital de la comarca de El Bierzo, situada en la confluencia de los ríos Sil y Boeza, con una población de más de 67.000 habitantes y todos los servicios que el peregrino pueda necesitar.<br><br>
+
+Viene citada en el Codex Calixtinus como lugar por donde pasa el Camino. En el presente, además de importante final de etapa del Camino Francés, es también punto de partida del Camino de Invierno.
+Conjunto Histórico desde 1976, está situada en el Corazón de la Comarca del Bierzo.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/ponferrada.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/ponferrada.jpg" target="_blank"></a>
+ </p>
+
+    <h2 class="add-top-margin">Villafranca del Bierzo</h2>
+    <hr>
+    <p class="text">Villafranca del Bierzo es un importante municipio leonés (cuenta con algo más de 3.000 habitantes) de la comarca de El Bierzo, en pleno Camino de Santiago Francés, y siempre vinculada al mismo, en el que el peregrino encuentra todos los servicios que puede necesitar.<br><br>
+
+Villafranca del Bierzo es uno de los escasos municipios de la provincia de León en los que se habla gallego, ya que hasta hace no mucho tiempo esta localidad pertenecía a Galicia, por lo que en la actualidad sigue latente la cultura gallega.<br><br>
+
+Cabe hacer una mención especial sobre la iglesia de Santiago, puesto que los peregrinos que no consigan llegar a Santiago, pueden obtener la indulgencia o el perdón de sus pecados en la misma.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/villafranca.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/villafranca.jpg" target="_blank"></a>
+</p>
+
+
+    <h2 class="add-top-margin">O Cebreiro</h2>
+    <hr>
+    <p class="text">
+    O Cebreiro es una parroquia del municipio de Piedrafita del Cebrero (Piedrafita do Cebreiro), en la provincia de Lugo (Galicia), en pleno Camino de Santiago Francés, lugar mítico y fin de etapa para muchos peregrinos tras la subida del duro puerto que da fin a la Ruta Jacobea en Castilla y León.<br><br>
+
+Situado a 1.330 m. de altitud, por lo que su climatología en invierno suele ser dura, y en un entorno excepcional, O Cebreiro es, sin duda, un lugar obligado de parada y fonda en el Camino Francés.<br><br>
+
+La historia de esta localidad está marcada por su relevancia en el Camino, ya que su función de paso incidió en la historia local.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/ocebreiro.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/ocebreiro.jpg" target="_blank"></a>
+ </p>
+
+
+    <h2 class="add-top-margin">Triacastela</h2>
+    <hr>
+    <p class="text">Triacastela es un municipio de la provincia de Lugo de algo más de 700 habitantes, la primera villa del Camino de Santiago Francés en Galicia, que se ve desbordada por la gran afluencia de peregrinos durante las épocas más potentes del año.<br><br>
+
+Está situada en la comarca de Sarria, en las estribaciones de las sierras orientales gallegas, rodeado de pequeño valles fluviales y fértiles vegas custodiadas por sierras y montes entre las que destaca la Sierra de Oribio.<br><br>
+
+En el Codex Calixtinus es mencionada como el final de la última etapa en el recorrido español del Camino de Santiago. Además, se hace referencia a la población a propósito de curiosas costumbres asociadas a la peregrinación.<br><br>
+
+Una de ellas, data de 1130, cuando la catedral de Santiago aún estaba en construcción. Relata como los peregrinos cogían “una piedra y la llevan a Castañeda [en Arzúa] para obtener cal destinada a las obras de la basílica del Apóstol”. Otra versa sobre los numerosos mesoneros de Santiago de Compostela que se desplazaban a esta villa para captar clientela. Se ganaban la confianza del caminante asegurándose que una vez hubieran llegado a Santiago se albergaran en su casa, donde finalmente se toparían con un negocio donde les cobrarían precios muy elevados a cambio de servicios de baja calidad.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/triacastela.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/triacastela.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Sarria</h2>
+    <hr>
+    <p class="text">
+    Sarria es una importante población de la provincia de Lugo (unos 9.000 habitantes en el casco urbano) de gran importancia en el Camino de Santiago, ya que no solo está en el Camino de Santiago Francés, sino que es lugar de encuentro con el Camino del Norte.<br><br>
+
+Además, Sarria se ha convertido para muchos peregrinos del Camino en el inicio de su recorrido, ya que está situada a 112 kilómetros de Santiago, por lo que es el último lugar desde donde se puede empezar y conseguir la Compostela si se cubre el trazado a pie o a caballo (100 kilómetros son el mínimo para obtenerla).
+Y desde aquí podemos alcanzar Santiago en cinco etapas, una cifra idónea para quien quiera hacer el recorrido en menos de una semana.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/sarria.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/sarria.jpg" target="_blank"></a>
+
+    </p>
+
+    <h2 class="add-top-margin">Portomarín</h2>
+    <hr>
+    <p class="text">Portomarín es una localidad de la provincia de Lugo, ubica en lo alto del Monte do Cristo a orillas del río Miño. Importante y emblemático lugar en el Camino de Santiago Francés, final de etapa para muchos peregrinos, que encuentran en este pueblo todos los servicios que pueden necesitar.<br><br>
+
+Es uno de los puntos con mayor concurrencia de peregrinos para pernoctar en el Camino Francés en Galicia.<br><br>
+
+
+El Códex Calixtinus se refiere a la localidad como “Pons Minee”, que ha sido interpretado como ‘Puente del Miño’. Su topónimo hace referencia a su situación privilegiada como porto, es decir, como lugar de paso de un río. Este puente, junto con el de Lugo y el de Orense, era la única manera de atravesar el Miño sin utilizar una barca, razón por la cual la ruta de los peregrinos hubo de pasar por aquí. Por otra parte, “marín” se relaciona también con la existencia desde la Alta Edad Media de un santuario consagrado a Santa María, sobre el que posteriormente se levantaría la iglesia de San Nicolás o San Juan.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/portomarin.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/portomarin.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Palas de Rei</h2>
+    <hr>
+    <p class="text">Palas de Rei es una importante localidad de la provincia de Lugo (algo más de 3.600 habitantes), atravesada por el Camino de Santiago Francés, del que es final de etapa para muchos peregrinos, donde encuentran todos los servicios que necesitan.<br><br>
+Se trata de un pueblo que no ha conservado mucho de su pasado jacobeo, pese a haber sido un lugar importante en la Edad Media, donde los peregrinos solían descansar. Además, existía la tradición de aquí que se reunían para seguir en grupo hasta Compostela. Lo hacían a la salida de la villa, en el lugar conocido como Campo dos Romeiros, parroquia de O Carballal.<br><br>
+En los últimos años, Palas de Rei ha realizado esfuerzos para recuperar su protagonismo jacobeo y en la actualidad cuenta con muchos servicios asistenciales para los peregrinos.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/palas.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/palas.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Arzúa</h2>
+    <hr>
+    <p class="text">Arzúa es un importante municipio gallego (algo más de 6.000 habitantes) de la provincia de La Coruña, y de gran importancia en el Camino de Santiago, ya que es donde se unen el Camino del Norte  y el Camino Francés.<br><br>
+
+Se autodenomina «Tierra del Queso» en referencia al queso aquí elaborado con leche de vaca, con la Denominación de Origen Arzúa-Ulloa, uno de los principales embajadores de la zona.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/arzua.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/arzua.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">O Pedrouzo</h2>
+    <hr>
+    <p class="text">O Pedrouzo es una pequeña localidad de la provincia de La Coruña (algo más de 500 habitantes), ya a tan solo 20 kms de Santiago de Compostela en el Camino de Santiago, enclavado dentro de la parroquia de Arca y capital del ayuntamiento de O Pino.<br><br>
+
+Pedrouzo se ha consolidado en los últimos años —junto al Monte do Gozo— como la última parada de los peregrinos antes de Santiago de Compostela, dada su cercanía.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/opedrouzo.jpg'); border: 1px solid; color: black; height: 400px;" href="images/supply_points/opedrouzo.jpg" target="_blank"></a>
+</p>
+
+    <h2 class="add-top-margin">Santiago de Compostela</h2>
+    <hr>
+    <p class="text">¡Y, al fin, Santiago! Meta de peregrinos, la meta del Camino. Santiago de Compostela. Lugar de culto y veneración, lugar que atrae cada año a cientos de miles de personas en peregrinación a la tumba del Apóstol o simplemente para admirar toda la belleza, la historia, cultura y arte de un lugar ciertamente mítico como pocos.<br><br>
+
+Capital de Galicia, ciudad declarada Patrimonio de la Humanidad por la UNESCO gracias a su belleza monumental, extraordinaria conservación y por ser meta de una milenaria ruta de peregrinación, el Camino de Santiago, que desde el siglo IX ha ido transformando este paraje del finis terrae en punto de encuentro de la fe y el pensamiento del mundo occidental.
+<a class="image adaptive-image" style="background-image: url('images/supply_points/santiago.jpg'); border: 1px solid; color: black; height: 600px;" href="images/supply_points/santiago.jpg" target="_blank"></a>
+ </p>
+        <!--Start Credits-->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+              Créditos contenido e imágenes: <span class="highlight-text">Albergues del Camino.</span>   Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+            </p>
+          </div>
+        </div>
+        <!--End Credits-->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>

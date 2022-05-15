@@ -1,302 +1,227 @@
-<!doctype html>
-<html lang="en">
-  <head>
-        <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style/main.css">
+<head>
+  <title>Walking Santiago</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Walking Santiago</title>
-	<link rel="stylesheet" type="text/css" href="">
-	
-    <h1>Walking Santiago</h1>
 
-    <button>Click aquí</button>
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
 
-    <div>
-	<img src="./images/icon/camino1.png" alt="Imagen del Camino de Santiago francés" style="width:500px;">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/widgets.js"></script>
+
+
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+  <style>
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+      }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container">
+  <div class="menu">
+  <div class="menu-table flex-row-space-between">
+    <div class="logo flex-row-center">
+    <a href="index.html">Walking Santiago</a>
     </div>
-
-	<br>
-
-    <div>
-	<a href="index.html" target="_blank">Primer mapa</a>
-
-	<iframe src="./maps/mapa1/qgis2web_2022_03_23-14_00_53_864876/index.html" title="Mapa 1" width="100%" scrolling="no" style="border:none;"></iframe>
+    <a class="menu-button" tabindex="0" href="javascript:void(0)">
+      <img src="img/menu.png">
+    </a>
+    <div class="menu-items flex-row-center flex-item">
+      <a href="index.html" class="menu-index">Inicio</a>
+      <a href="mapa_de_etapas.html" class="menu-widget">Mapa de etapas</a>
+      <a href="etapas_al_detalle.html" class="menu-widget">Etapas al detalle</a>
+      <a href="visita_y_descanso.html" class="menu-widget">Visita y descanso</a>
+      <a href="equipaje.html" class="menu-widget">Equipaje</a>
+      <a href="contacto.html" class="menu-widget">Contacto</a>
+      <a href="https://github.com/llsalvat/walking-santiago">GitHub</a>
     </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="content-container">
 
-	<h1 class="one">Introducción</h1>
-        <p>El Camino de Santiago ha sido, y sigue siendo, sin duda, la ruta más antigua, más concurrida y más celebrada del viejo continente. Santiago también ha compartido la atracción de los caminantes y andadores de todos los tiempos pero, además, ha creado una ruta, ha hecho un Camino. A Santiago y a Galicia se puede llegar de muchas maneras. Pero la mejor forma de venir es por el Camino de Santiago.</p>
+    <div class="content">
 
-	<h1 class="one">Mapa de etapas</h1>
-        <p>Mapa:</p>
-
-	<h1 class="one">Etapas al detalle</h1>
-        <p>Etapa 1:
-        </p>
-
-    <h1 class="one">Lugares de visita y descanso</h1>
-        <p>Lugar 1:
-        </p>
-
-    <h1 class="one">Equipaje</h1>
-        <p>Ropa:
-        </p>
-
-	<h1 class="one">Contact0</h1>
-        <p>Formulario de contacto:</p>
-
-	</body>
-  </head>
-  <body>
-  <!--========================================================== -->
-                        <!-- ENCABEZADO -->
-  <!--========================================================== -->
-    <header class="container-fluid bg-primary d-flex justify-content-center">
-        <p class="text-light mb-0 p-2 fs-6">Contactanos +34 628946475</p>
-    </header>
-
-    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-              <span class="fs-5 text-primary fw-bold">Walking Santiago</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#equipo">Equipo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#seccion-contacto">Contactos</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
-              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
-            </form>
-          </div>
-
-        </div>
-      </nav>
-
-    <!--========================================================== -->
-                        <!-- SLIDER DE IMAGENES-->
-    <!--========================================================== -->
-   
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./img/slide1.jpg" class="d-block w-100" alt="">
-          </div>
-          
- 
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
-          </div>
- 
-
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
-          </div>
- 
- 
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>    
+      <div class="content-table flex-column">
     
         
-     
-    <!--========================================================== -->
-                        <!-- INTRODUCCION DE SERVICIOS-->
-    <!--========================================================== -->
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #E8E8E8;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #F0F0F0;
+}
+</style>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
 
 
-    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
-    <h1 class="p-3 fs-2 border-top border-3">Un servició a los senderistas que quieren realizar <span class="text-primary">el Camino de Santiago<span/></h1>
-     <p class="p-3  fs-4">
-         <span class="text-primary">Walking Santiago</span> es la agencia donde te ayudamos establecer las bases para tu Camino.        
-     </p>   
-    </section>
-
-   <!--========================================================== -->
-                        <!-- TIPOS DE SERVICIOS-->
-    <!--========================================================== -->
 
 
-<section class="w-100">
-    <div class="row w-75 mx-auto" id="servicios-fila-1">       
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-            <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
 
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">---</h3>
-                <p class="px-4">---</p>
+
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Intro-->
+        <!--Video - Start Text with Iframe-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Comienza tu peregrinaje</h2>
+            <hr>
+            <p class="text">
+              El Camino de Santiago tiene, sin duda, algo de místico. En la gran mayoría, muchos peregrinos se deciden a realizar el camino movidos por devoción al Apóstol Santiago, pero también por una espiritualidad que se manifiesta en la necesidad de saber más de uno mismo, de encontrar respuestas a preguntas y de hallar paz interior. El Camino de Santiago marca, para muchos caminantes, un punto de inflexión en la vida cuando conectan de verdad con la realidad de sí mismos a través de lo que no se puede describir con palabras.
+            </p>
+           
+            
+            <div class="flex-item flex-item-stretch flex-column">
+              <video preload controls autoplay loop muted playsinline class="image">
+              <source src="./vid/camino_trailer.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
             </div>
 
+                   <!--Start Credits-->
+              <div class="flex-row">
+                <div class="flex-item flex-item-stretch flex-column">
+                  <p class="text text-small text-italic">
+              Créditos: <span class="highlight-text">Camino Time Lapse.</span>
+                  </p>
+                </div>
+              </div>
+              <!--End Credits-->
+
+
+
+            <p class="text">
+             Salir de la zona de confort nunca es fácil y el Camino de Santiago te puede ayudar a conseguirlo. Todos construimos un proceso de vida que repetimos todos los días, en el que muy poco cambia y en el que nos cobijamos, escondiéndonos en una burbuja sin mirar hacia afuera. Nuestra perspectiva sobre la vida a veces está totalmente condicionada por nuestro entorno cerrado. Precisamente en el Camino es donde tenemos que encontrar nuestras propias razones para seguir hacia adelante y aprender a convivir con un entorno totalmente diferente al de nuestro día a día.
+
+             Así que te animamos a descubrir <b>el Camino de Santiago francés.</b>
+            </p>
+          </div>
         </div>
+        <!--END Text with Iframe-->
 
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-            <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+        <!--Mapa - Start Text with Iframe-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Camino de Santiago francés</h2>
+            <hr>
+            <p class="text">
+              Es el Camino por excelencia. El itinerario jacobeo con mayor tradición histórica y el más reconocido internacionalmente. Fue descrito ya en 1135 en el Codex Calixtinus, libro fundamental jacobeo. El Libro V de este códice constituye una auténtica guía medieval de la peregrinación a Santiago. En él se especifican los tramos del Camino Francés desde tierras galas e informa detalladamente sobre los santuarios de la ruta, la hospitalidad, las gentes, la comida, las fuentes, las costumbres locales, etc. Todo está escrito con la síntesis y claridad que necesita una respuesta práctica a una demanda concreta: la peregrinación a Santiago.
+              <br><br>
+              El Camino francés recorre el norte ibérico des del sur de Francia hasta Santiago de Compostela.
+            </p>
+            
+            <a class="image adaptive-image" style="background-image: url('images/icon/camino1.png'); border: 0.5px solid; color: black; height: 400px;" href="images/icon/camino1.png" target="_blank"></a>
+            
 
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">---</h3>
-                <p class="px-4">---</p>
-            </div>
-        </div>   
-    </div>
-    
-    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-            <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+            <!--Start Credits-->
+              <div class="flex-row">
+                <div class="flex-item flex-item-stretch flex-column">
+                  <p class="text text-small text-italic">
+              Créditos: <span class="highlight-text">Federación Española de Asociaciones de Amigos del Camino de Santiago.</span>
+                  </p>
+                </div>
+              </div>
+              <!--End Credits-->
 
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">---</h3>
-                <p class="px-4">---</p>
-            </div>
+
+            <p class="text">
+            Podemos distinguir formas paisagísticas y geográficas muy diferentes entre si, así como una riqueza cultural innombrable. Desde las cumbres Pirenaicas, hasta las tierras Gallegas cruzando los viñedos del Valle del Ebro, los campos de trigo de la Meseta i los montes y bosques del Bierzo. 
+            </p>
+
+            <p class="text">
+              Pero para comenzar esta aventura, descubre con nosotros el <a href="mapa_de_etapas.html"><b>recorrido exacto del Camino</b></a> así como las <a href="etapas_al_detalle.html"><b>características de las etapas</b></a>, los <a href="visita_y_descanso.html"><b>lugares imprescindibles para visitar y descansar</b></a> o el <a href="equipaje.html"><b>equipaje</b></a> que debes llevar.
+              <br> Pero si te surge una duda, contacta con nosotros en este <a href="contacto.html"><b>enlace</b></a>.
+            <br><br>
+            <b>Amiga Peregrina, amigo Peregrino, ¡ven y descubre el Camino de Santiago!</b>
+
+            </p>
+             </div>
         </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-            <img src="./img/seo.png" alt="seo" width="180" height="160" >
-
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1">----</h3>
-                <p class="px-4">----</p>
-            </div>
-        </div>   
-    </div>
-</section>
-
-<!--========================================================== -->
-                        <!-- SECCION ACERCA DE NOSOTROS-->
-<!--========================================================== -->
-
-<section>
-    <div class="container w-50 m-auto text-center" id="equipo">
-        <h1 class="mb-5 fs-2">------<span class="text-primary">------</span>.</h1>
-        <p class="fs-4 ">-------</p>
-    </div>
-
-    <div class="mt-5 text-center">
-        <img id="img-equipo" src="./img/equipo.jpg" alt="equipo">
-    </div>
-
-    <div id="local" class="border-top border-2">
-        <div class="mapa"> </div>
-        <div>
-            <div class="wrapper-local">
-                <h2>----</h2>
-                <h2 class="text-primary mb-4" id="typewriter"></h2>
-                <p class="fs-5 text-body">----</p>
-                <section class="d-flex justify-content-start" id="numeros-local">
-                    <div>
-                        <p class="text-primary fs-5">---</p>
-                        <p>---</p>
-                    </div>
-                    <div>
-                        <p class="text-primary fs-5">---</p>
-                        <p>---</p>
-                    </div>
-                    <div>
-                        <p class="text-primary fs-5">---</p>
-                        <p>---</p>
-                    </div>
-              </section>
-            </div>
+            
+        <!--End List of Projects-->
+        <!--Start Credits-->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+        Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+            </p>
+          </div>
         </div>
-    </div>
-
-</section>
+        <!--End Credits-->
 
 
-<!--========================================================== -->
-                        <!-- SECCION CONTACTOS-->
-<!--========================================================== -->
-
-<section id="seccion-contacto" class="border-bottom border-secondary border-2">
-  <div id="bg-contactos">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-  </div>
-
-
-<!--========================================================== -->
-                      <!-- CONTENEDOR DEL FORMULARIO -->
-<!--========================================================== -->
-
-  <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
-      <div class="text-center mb-4" id="titulo-formulario">
-        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
-        <h2>Contactanos</h2>
-        <p class="fs-5">Estamos aqui para responder a tus dudas</p>
       </div>
-
-     
-
-      <form action="">     
-            <div class= "mb-3">           
-              <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
-            </div>
- 
-          
-            <div class="mb-3">            
-              <input type="input" class="form-control" id="nombre" placeholder="Juan Perez">
-            </div>
-      
-
-            <div class="mb-3">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
-            </div>
-
-          <div class="mb-3">       
-            <textarea class="form-control" id="msj" rows="4"></textarea>
-          </div>
-
-          <div class="mb-3">
-            <button type="button" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
-          </div>
-      </form>
-  
+    </div>
   </div>
-</section>
+</body>
 
-
-<!--========================================================== -->
-                        <!--FOOTER-->
-<!--========================================================== -->
-
-
-<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-  <p class="fs-5 px-3  pt-3">Waling Santiago. &copy; Todos Los Derechos Reservados 2021</p>
-  <div id="iconos" >
-      <a href="#"><i class="bi bi-facebook"></i></a>
-      <a href="#"><i class="bi bi-twitter"></i></a>
-      <a href="#"><i class="bi bi-instagram"></i></a>  
-  </div>
-</footer>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="main.js"></script>
-  </body>
 </html>
-=======
-</html>
->>>>>>> 10ab69423d82dd48ed342a38557c5a730d2ef16f
