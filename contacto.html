@@ -10,6 +10,9 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -40,99 +43,26 @@
   </div>
 
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+<!-- Back to top button. A banda, s'ha d'afegir el codi javascript, que tot i haver seguit les passes correctes (ficar el script al fitxer javascript així com vincular-lo al HTML, per alguna raó no apareix el botó) -->
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
-</head>
-<body>
-
-
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-}
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  font-size: 15px;
-  border: none;
-  outline: none;
-  background-color: #E8E8E8;
-  color: black;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #F0F0F0;
-}
-</style>
-<body>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+<a id="button"></a>
 
 <script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+  var btn = $('#button');
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 10) {
+    btn.addClass('show');
   } else {
-    mybutton.style.display = "none";
+    btn.removeClass('show');
   }
-}
+});
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 </script>
-
-</body>
 
 
 
@@ -201,17 +131,28 @@ function topFunction() {
     <textarea id="sujeto" name="sujeto" placeholder="Escribe algo.." style="height:100px"></textarea>
 
     <input type="submit" value="Envia">
+    <br><br>
   </form>
 
-                <!--Start Credits-->
+        <!--CREDITS AND SOCIAL ICON TO GITHUB PERSONAL PROJECT-->
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic">
+
+              <a href="https://github.com/llsalvat/walking-santiago" target="_blank">
+              <img src="images/icons/github.png"  height="40">
+              </a>
+
+
               Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+
+
             </p>
           </div>
         </div>
-        <!--End Credits-->
+        <!--END-->
+
+
 </div>
 </div>
 </div>

@@ -9,11 +9,16 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
- 
+
 </head>
 
 <body>
@@ -38,7 +43,33 @@
   </div>
   </div>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+<div class="content-container">
+
+<div class="content">
+
+<div class="content-table flex-column">
+
+
+<!-- Back to top button. A banda, s'ha d'afegir el codi javascript, que tot i haver seguit les passes correctes (ficar el script al fitxer javascript així com vincular-lo al HTML, per alguna raó no apareix el botó) -->
+
+<a id="button"></a>
+
+<script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 10) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
 
 
 
@@ -307,15 +338,20 @@
     Albergues a lo largo de la etapa: 23.<br><br>
     Distancia a Santiago: 19,1 km.</p>
 
-                    <!--Start Credits-->
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text text-small text-italic">
-         Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
-            </p>
-          </div>
-        </div>
-        <!--End Credits-->
+    <!--CREDITS AND SOCIAL ICON TO GITHUB PERSONAL PROJECT-->
+    <div class="flex-row">
+     <div class="flex-item flex-item-stretch flex-column">
+      <p class="text text-small text-italic">
+             <a href="https://github.com/llsalvat/walking-santiago" target="_blank">
+              <img src="images/icons/github.png"  height="40">
+              </a>
+
+        Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+     </p> 
+    </div>
+    </div>
+    <!--END-->
+    
 </div>
 </div>
 </div>

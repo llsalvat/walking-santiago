@@ -9,11 +9,16 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
- 
+
 </head>
 
 <body>
@@ -38,61 +43,35 @@
   </div>
   </div>
 
+<div class="content-container">
+
+<div class="content">
+
+<div class="content-table flex-column">
 
 
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-}
+<!-- Back to top button. A banda, s'ha d'afegir el codi javascript, que tot i haver seguit les passes correctes (ficar el script al fitxer javascript així com vincular-lo al HTML, per alguna raó no apareix el botó) -->
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  font-size: 15px;
-  border: none;
-  outline: none;
-  background-color: #E8E8E8;
-  color: black;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #F0F0F0;
-}
-</style>
-<body>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+<a id="button"></a>
 
 <script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+  var btn = $('#button');
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 10) {
+    btn.addClass('show');
   } else {
-    mybutton.style.display = "none";
+    btn.removeClass('show');
   }
-}
+});
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 </script>
 
-</body>
+
 
  <div class="content-container">
 
@@ -421,15 +400,25 @@ Pedrouzo se ha consolidado en los últimos años —junto al Monte do Gozo— co
 Capital de Galicia, ciudad declarada Patrimonio de la Humanidad por la UNESCO gracias a su belleza monumental, extraordinaria conservación y por ser meta de una milenaria ruta de peregrinación, el Camino de Santiago, que desde el siglo IX ha ido transformando este paraje del finis terrae en punto de encuentro de la fe y el pensamiento del mundo occidental.
 <a class="image adaptive-image" style="background-image: url('images/supply_points/santiago.jpg'); border: 1px solid; color: black; height: 600px;" href="images/supply_points/santiago.jpg" target="_blank"></a>
  </p>
-        <!--Start Credits-->
+
+
+        <!--CREDITS AND SOCIAL ICON TO GITHUB PERSONAL PROJECT-->
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic">
-              Créditos contenido e imágenes: <span class="highlight-text">Albergues del Camino.</span>   Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+
+              <a href="https://github.com/llsalvat/walking-santiago" target="_blank">
+              <img src="images/icons/github.png"  height="40">
+              </a>
+
+
+              Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+
+
             </p>
           </div>
         </div>
-        <!--End Credits-->
+        <!--END-->
 
 </div>
 </div>

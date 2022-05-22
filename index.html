@@ -5,11 +5,16 @@
   <title>Walking Santiago</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
+
   <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,9 +43,31 @@
   </div>
   </div>
   </div>
-
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   
+
+
+  <!-- Back to top button. A banda, s'ha d'afegir el codi javascript, que tot i haver seguit les passes correctes (ficar el script al fitxer javascript així com vincular-lo al HTML, per alguna raó no apareix el botó) -->
+
+<a id="button"></a>
+
+<script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 10) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
+
+
   <div class="content-container">
 
     <div class="content">
@@ -51,6 +78,8 @@
         <!--Video - Start Text with Iframe-->
         <div class="flex-row">
           <div class="flex-item flex-column">
+            
+
             <h2 class="add-top-margin">Comienza tu peregrinaje</h2>
             <hr>
             <p class="text">
@@ -120,61 +149,30 @@
               <br> Pero si te surge una duda, contacta con nosotros en este <a href="contacto.html"><b>enlace</b></a>.
             <br><br>
             <b>Amiga Peregrina, amigo Peregrino, ¡ven y descubre el Camino de Santiago!</b>
+            <br><br>
 
              </p>
              </div>
         </div>
     
 
-        <!--Social icons-->
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text text-small text-italic">
-        Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
-            </p>
-          </div>
-        </div>
-        <!--End List of Projects-->
-
-
-        <!--Start Credits-->
+        <!--CREDITS AND SOCIAL ICON TO GITHUB PERSONAL PROJECT-->
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic">
 
-              <body>
+              <a href="https://github.com/llsalvat/walking-santiago" target="_blank">
+              <img src="images/icons/github.png"  height="40">
+              </a>
 
-              <!-- Add font awesome icons -->
-              <a href="css/style.css" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-google"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-youtube"></a>
-              <a href="#" class="fa fa-instagram"></a>
-              <a href="#" class="fa fa-pinterest"></a>
-              <a href="#" class="fa fa-snapchat-ghost"></a>
-              <a href="#" class="fa fa-skype"></a>
-              <a href="#" class="fa fa-android"></a>
-              <a href="#" class="fa fa-dribbble"></a>
-              <a href="#" class="fa fa-vimeo"></a>
-              <a href="#" class="fa fa-tumblr"></a>
-              <a href="#" class="fa fa-vine"></a>
-              <a href="#" class="fa fa-foursquare"></a>
-              <a href="#" class="fa fa-stumbleupon"></a>
-              <a href="#" class="fa fa-flickr"></a>
-              <a href="#" class="fa fa-yahoo"></a>
-              <a href="#" class="fa fa-reddit"></a>
-              <a href="#" class="fa fa-rss"></a>
-              <a href="https://github.com/llsalvat/walking-santiago">GitHub</a>
-      
-              </body>
+
+              Créditos elaboración: <span class="highlight-text">Lluís Salvat Garcia.</span>
+
 
             </p>
           </div>
         </div>
-        <!--End Credits-->
-
-
+        <!--END-->
 
 
       </div>
