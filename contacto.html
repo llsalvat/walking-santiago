@@ -69,15 +69,69 @@ btn.on('click', function(e) {
 <div class="content-container">
 <div class="content">
 <div class="content-table flex-column">
+<div class="row">
 
-  <h2>Datos de contacto</h2>
-  <hr>
-      <p>  Dirección postal: Avinguda dels Països Catalans, Reus 43206.
-        <br><br>
-        Teléfono: 977 85 42 31
-        <br><br>
-        Email: walkingsantiago@gmail.com
-      
+      <div class="col2">
+      <h2>Formulario de contacto</h2>
+      <hr>
+      <form action="/action_page.php">
+      <label for="fname">Nombre</label>
+      <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+
+      <label for="lname">Apellidos</label>
+      <input type="text" id="lname" name="lastname" placeholder="Tus apellidos..">
+
+      <label for="country">País</label>
+      <select id="country" name="country">
+        <option value="españa">España</option>
+        <option value="novalue">---</option>
+        <option value="andorra">Andorra</option>
+        <option value="alemania">Alemania</option>
+        <option value="austria">Austria</option>
+        <option value="belgica">Bélgica</option>
+        <option value="bulgaria">Bulgaria</option>
+        <option value="croacia">Croacia</option>
+        <option value="chipre">Chipre</option>
+        <option value="dinamarca">Dinamarca</option>
+        <option value="eslovaquia">Eslovaquia</option>
+        <option value="eslovenia">Eslovenia</option>
+        <option value="estonia">Estonia</option>
+        <option value="finlandia">Finlandia</option>
+        <option value="francia">Francia</option>
+        <option value="grecia">Grecia</option>
+        <option value="hungria">Hungría</option>
+        <option value="irlanda">Irlanda</option>
+        <option value="italia">Italia</option>
+        <option value="letonia">Letonia</option>
+        <option value="lituania">Lituania</option>
+        <option value="luxemburgo">Luxemburgo</option>
+        <option value="malta">Malta</option>
+        <option value="paisesbajos">Países Bajos</option>
+        <option value="polonia">Polonia</option>
+        <option value="portugal">Portugal</option>
+        <option value="republicacheca">República Checa</option>
+        <option value="rumania">Rumanía</option>
+        <option value="suecia">Suecia</option>
+      </select>
+
+      <label for="sujeto">Sujeto</label>
+      <textarea id="sujeto" name="sujeto" placeholder="Escribe algo.." style="height:100px"></textarea>
+
+      <input type="submit" value="Envia">
+      <br><br>
+    </form>
+    </div>  
+
+    <div class="col2">
+        <h2>Datos de contacto</h2>
+        <hr>
+            <p>  Dirección postal: Avinguda dels Països Catalans, Reus 43206.
+              <br><br>
+              Teléfono: 977 85 42 31
+              <br><br>
+              Email: walkingsantiago@gmail.com
+    </div>  
+</div>
 </div>
 </div>
 </div>
@@ -85,57 +139,8 @@ btn.on('click', function(e) {
 <div class="content-container">
 <div class="content">
 <div class="content-table flex-column">
-<h2>Formulario de contacto</h2>
-<hr>
-  <form action="/action_page.php">
-    <label for="fname">Nombre</label>
-    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
-
-    <label for="lname">Apellidos</label>
-    <input type="text" id="lname" name="lastname" placeholder="Tus apellidos..">
-
-    <label for="country">País</label>
-    <select id="country" name="country">
-      <option value="españa">España</option>
-      <option value="novalue">---</option>
-      <option value="andorra">Andorra</option>
-      <option value="alemania">Alemania</option>
-      <option value="austria">Austria</option>
-      <option value="belgica">Bélgica</option>
-      <option value="bulgaria">Bulgaria</option>
-      <option value="croacia">Croacia</option>
-      <option value="chipre">Chipre</option>
-      <option value="dinamarca">Dinamarca</option>
-      <option value="eslovaquia">Eslovaquia</option>
-      <option value="eslovenia">Eslovenia</option>
-      <option value="estonia">Estonia</option>
-      <option value="finlandia">Finlandia</option>
-      <option value="francia">Francia</option>
-      <option value="grecia">Grecia</option>
-      <option value="hungria">Hungría</option>
-      <option value="irlanda">Irlanda</option>
-      <option value="italia">Italia</option>
-      <option value="letonia">Letonia</option>
-      <option value="lituania">Lituania</option>
-      <option value="luxemburgo">Luxemburgo</option>
-      <option value="malta">Malta</option>
-      <option value="paisesbajos">Países Bajos</option>
-      <option value="polonia">Polonia</option>
-      <option value="portugal">Portugal</option>
-      <option value="republicacheca">República Checa</option>
-      <option value="rumania">Rumanía</option>
-      <option value="suecia">Suecia</option>
-    </select>
-
-    <label for="sujeto">Sujeto</label>
-    <textarea id="sujeto" name="sujeto" placeholder="Escribe algo.." style="height:100px"></textarea>
-
-    <input type="submit" value="Envia">
-    <br><br>
-  </form>
-
-        <!--CREDITS AND SOCIAL ICON TO GITHUB PERSONAL PROJECT-->
-        <div class="flex-row">
+  <!--CREDITS AND SOCIAL ICON TO GITHUB PERSONAL PROJECT-->
+      <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic">
 
@@ -150,12 +155,10 @@ btn.on('click', function(e) {
             </p>
           </div>
         </div>
-        <!--END-->
-
-
 </div>
 </div>
 </div>
+<!--END-->
 
 </body>
 </html>

@@ -711,6 +711,23 @@ hr {
   margin: 0;
 }
 
+.col2{
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+.row:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 600px){
+  .col2{
+    width: 100%;
+  }
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -2133,7 +2150,7 @@ ol.nested>li:before {
 }
 
 
-/*CONTACTO*/
+/*CONTACT FORM*/
 
 input[type=text], select, textarea {
   width: 100%;
